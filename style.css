@@ -57,7 +57,7 @@ h4{
 .money{
     font-size: 20px;
     letter-spacing: 1px;
-    margin: 5px 0;
+    margin: 5px 0px;
 }
 .money.plus{
     color: rgb(165, 230, 150);
@@ -86,17 +86,17 @@ input[type='number'] {
     border: 0;
     display: block;
     font-size: 16px;
-    margin: 10px 0 30px;
+    margin: 10px 30px;
     padding: 10px;
     width: 100%;
 }
 .btn:focus,
 .delete-btn:focus{
-    outline: 0;
+    outline: 0px;
 }
 .list{
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
     margin-bottom: 40px;
 }
 .list li{
@@ -107,13 +107,13 @@ input[type='number'] {
     justify-content: space-between;
     position: relative;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px;
 }
 .list li.plus{
-    border-right: 5px solid rgba(236, 97, 4, 0.33);
+    border-right: 5px solid #2ecc71;
 }
 .list li.minus{
-    border-right: 5px solid yellowgreen;
+    border-right: 5px solid #c0392b;
 }
 .delete-btn{
     cursor: pointer;
@@ -125,8 +125,11 @@ input[type='number'] {
     padding: 2px 5px;
     position: absolute;
     top: 50px;
-    left: 0;
+    left: 0px;
     transform: translate(-100%, -50%);
-    opacity: 0;
+    opacity: 0px;
     transition: opacity 0.3s ease;
+}
+.list li:hover .delete-btn{
+    opacity: 1px;
 }
