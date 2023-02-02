@@ -80,7 +80,7 @@ h4 {
 }
 
 .money.plus, .money.minus{
-  
+  margin-top: -1rem;
 }
 
 label {
