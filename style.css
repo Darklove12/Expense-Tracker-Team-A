@@ -81,6 +81,9 @@ h4 {
 
 .money.plus, .money.minus{
   margin-top: -1rem;
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
 }
 
 label {
