@@ -62,8 +62,9 @@ h4 {
 }
 
 .inc-exp-container > div:first-of-type {
-  border-right: 3px solid  rgb(139, 9, 139);
+  border-right: 6px solid  rgb(139, 9, 139);
   border-radius: 1rem;
+  border-left: 6px solid  rgb(139, 9, 139);
 }
 
 .money {
