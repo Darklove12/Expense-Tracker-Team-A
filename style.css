@@ -40,8 +40,10 @@ h3 {
 }
 
 h4 {
-  margin-left: 7rem;
   text-transform: uppercase;
+}
+#balance1{
+  margin-left: 7rem;
 }
 
 .inc-exp-container {
