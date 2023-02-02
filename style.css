@@ -8,7 +8,7 @@
   --lightpurple:rgb(252, 27, 252);
   --green: rgb(2, 155, 2);
   --red:rgb(245, 5, 5);
-
+  --white:white;
   
 }
 
@@ -98,11 +98,11 @@ input[type='number'] {
   cursor: pointer;
   background-color: rgb(139, 9, 139);
   box-shadow: var(--box-shadow);
-  color: #fff;
+  color: black;
   border-radius: 20px;
   display: block;
   font-size: 14px;
-  margin: 10px 0 30px;
+  margin-top: 5px;
   padding: 10px;
   width: 50%;
   margin-left: 6rem;
@@ -111,6 +111,7 @@ input[type='number'] {
 .btn:focus,
 .delete-btn:focus {
   outline: 0;
+  color: whitesmoke;
 }
 
 .list {
