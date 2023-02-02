@@ -42,7 +42,7 @@ h3 {
 h4 {
   text-transform: uppercase;
 }
-#balance1{
+#balance1 {
   margin-left: 7rem;
 }
 
@@ -71,11 +71,11 @@ h4 {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color: var(--green);
 }
 
 .money.minus {
-  color: #c0392b;
+  color: var(--red);
 }
 
 label {
