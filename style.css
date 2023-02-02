@@ -86,8 +86,8 @@ label {
   font-weight: bold;
 }
 
-input[type='text'],
-input[type='number'] {
+#text,
+input {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
