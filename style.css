@@ -87,7 +87,7 @@ label {
 }
 
 #text,
-input {
+#amount {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
