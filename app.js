@@ -35,7 +35,9 @@ alert('please add a text and amount');
 }
 {
     //Generate random ID
-    function generationID(){}
+    function generationID(){
+        return Math.floor(Math.random() * 100000000);
+    }
     
 }
 
