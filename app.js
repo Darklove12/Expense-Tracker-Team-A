@@ -54,7 +54,7 @@ alert('please add a text and amount');
     item.innerHTML =`
     ${transaction.text} <span>${sign}${Math.abs}(
         transaction.amount
-    )
+    ){</span> <button class="delete-btn" onclick="removeTransaction"}
     `
 
     }
