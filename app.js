@@ -42,5 +42,6 @@ alert('please add a text and amount');
 }
 {
     //Add transactions to DoM list
+    function addTransactionDom(transactions){}
 }
 
