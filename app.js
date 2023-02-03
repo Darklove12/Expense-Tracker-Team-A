@@ -62,4 +62,7 @@ alert('please add a text and amount');
     }
 }
  //Update the balance, income and expense
+ function updateValues(){
+    
+ }
 
