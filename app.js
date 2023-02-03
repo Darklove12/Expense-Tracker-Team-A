@@ -48,6 +48,8 @@ alert('please add a text and amount');
 
     const item = document.createElement('li');
     
+    // Add class based on value
+
     }
 }
 
