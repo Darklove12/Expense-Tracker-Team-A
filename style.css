@@ -118,9 +118,9 @@ label {
 } 
 
 .btn {
+  font-weight: bolder;
   cursor: pointer;
-  background-color: rgb(139, 9, 139);
-  box-shadow: var(--box-shadow);
+  background-color: rgb(227, 22, 227);
   color: black;
   border-radius: 20px;
   display: block;
