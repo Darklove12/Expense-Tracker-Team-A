@@ -25,7 +25,12 @@ alert('please add a text and amount');
 
     addTransactionDom(transactions);
 
+    updateValues();
+
     
+
+
+
 
 
 }
