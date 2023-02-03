@@ -44,6 +44,9 @@ alert('please add a text and amount');
     //Add transactions to DoM list
     function addTransactionDom(transactions){
     //Get sign
+    const item = transactions.amount < 0 ? '-' : '+';
+
+    
     }
 }
 
