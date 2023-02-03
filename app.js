@@ -23,6 +23,10 @@ alert('please add a text and amount');
     };
     transactions.push(transcations);
 
+    addTransactionDom(transactions);
+
+    
+
 
 }
 
