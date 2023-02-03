@@ -33,9 +33,9 @@ h1 {
   margin: 1rem;
 }
 
-h2 {
+#balance {
   padding-left: 1.3rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
 }
 
 h3 {
