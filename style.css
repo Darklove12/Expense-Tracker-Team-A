@@ -26,6 +26,7 @@ body {
 .container {
   margin: 30px auto;
   width: 350px;
+  cursor: scroll;
 }
 
 h1 {
@@ -38,19 +39,18 @@ h1 {
   padding-bottom: 0rem;
 }
 
-h3 {
-  border-bottom: 1px solid black;
-  padding-bottom: 10px;
-  margin: 40px 10px;
-  text-align: center;
-}
-
 #balance1 {
   margin-left: 7rem;
   font-size: 1.6rem;
   margin-top: -1rem;
   font-weight: 200%;
-  cursor: all-scroll;
+}
+
+h3 {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin: 40px 10px;
+  text-align: center;
 }
 
 .income-expense-container {
