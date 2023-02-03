@@ -64,6 +64,8 @@ alert('please add a text and amount');
  //Update the balance, income and expense
  function updateValues(){
     const amount = transactions.map(transaction => transaction.amount);
+    const total = amount.reduce((acc, item) => (acc += item, 0).toFixed(2);
+    )
 
  }
 
