@@ -53,7 +53,7 @@ alert('please add a text and amount');
 
     item.innerHTML =`
     ${transaction.text} <span>${sign}${Math.abs}(
-        
+        transaction.amount
     )
     `
 
