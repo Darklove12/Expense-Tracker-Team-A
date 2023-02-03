@@ -31,16 +31,10 @@ alert('please add a text and amount');
 
     text.value = '';
     amount.value = '';
+
+}
+{
+    //Generate random ID
     
-
-    
-
-
-    
-
-
-
-
-
 }
 
