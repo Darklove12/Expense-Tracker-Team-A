@@ -75,7 +75,10 @@ alert('please add a text and amount');
         -1
     ).toFixed(2)
 
-    balance.innerText = `R${total}`
+    balance.innerText = `R${total}`;
+    money_plus.innText= `R${income}`;
+
+    money_plus.innerText = `R${expense}`;
  }
 
 
