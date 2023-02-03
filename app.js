@@ -56,6 +56,7 @@ alert('please add a text and amount');
         transaction.amount
     ){</span> <button class="delete-btn" onclick="removeTransaction($"}
     transaction.id
+    })">x</button>
     `
 
     }
