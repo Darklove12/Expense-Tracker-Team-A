@@ -65,7 +65,14 @@ alert('please add a text and amount');
  function updateValues(){
     const amount = transactions.map(transaction => transaction.amount);
     const total = amount.reduce((acc, item) => (acc += item, 0).toFixed(2);
-    )
+    let income = amounts
+    .filter(item => item > 0)
+    .rdeuce((acc, item) => (acc += item), 0)
+    .toFixed(2);
 
+    let expense = (
+        amounts.filter (item => item < 0).reduce((acc, item) => ( acc += item)) *
+        -1
+    ).toFixed(2)
  }
 
