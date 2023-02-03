@@ -87,7 +87,7 @@ alert('please add a text and amount');
 
     updateLocalStorage();
 
-    
+    init()
  }
 
 
