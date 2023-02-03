@@ -58,6 +58,12 @@ h3 {
   margin: 20px 0;
 }
 
+.income-container, .expense-container {
+  width: 112%;
+  background-color: var(--lightpurple);
+  flex: 3px;
+  text-align: center;
+}
 
 
 .money {
