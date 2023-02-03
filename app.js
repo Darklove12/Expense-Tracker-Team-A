@@ -30,6 +30,8 @@ alert('please add a text and amount');
     updateLocalStorage();
 
     text.value = '';
+    amount.value = '';
+    
 
     
 
