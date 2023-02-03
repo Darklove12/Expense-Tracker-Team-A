@@ -74,5 +74,9 @@ alert('please add a text and amount');
         amounts.filter (item => item < 0).reduce((acc, item) => ( acc += item)) *
         -1
     ).toFixed(2)
+
+    balance.innerText = `R${total}`
  }
+
+
 
