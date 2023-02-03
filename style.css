@@ -65,6 +65,13 @@ h3 {
   text-align: center;
 }
 
+.income-container {
+  border-top-right-radius: 4rem;
+  box-shadow: rgba(8, 3, 0, 0.99) 5px 7px 9px;
+  width: 22rem;
+  height: 5rem;
+}
+
 
 .money {
   font-size: 20px;
