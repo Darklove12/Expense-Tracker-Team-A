@@ -50,6 +50,7 @@ h3 {
   font-size: 1.6rem;
   margin-top: -2rem;
   font-weight: 200%;
+  cursor: all-scroll;
 }
 
 .income-expense-container {
