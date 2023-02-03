@@ -85,6 +85,8 @@ alert('please add a text and amount');
  function removeTransaction (id){
     transactions = transactions.filter(transaction => transaction.id ! == id);
 
+    updateLocalStorage();
+
     
  }
 
