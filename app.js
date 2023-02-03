@@ -17,7 +17,7 @@ alert('please add a text and amount');
 }else {
 
     let transations={
-        id: geneerateID(),
+        id: generateID(),
         text: text.value,
         amount: +amount.value
     };
