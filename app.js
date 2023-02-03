@@ -27,6 +27,11 @@ alert('please add a text and amount');
 
     updateValues();
 
+    updateLocalStorage();
+
+    
+
+
     
 
 
