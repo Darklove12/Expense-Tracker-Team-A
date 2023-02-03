@@ -46,6 +46,7 @@ alert('please add a text and amount');
     //Get sign
     const item = transactions.amount < 0 ? '-' : '+';
 
+    const item = document.createElement('li');
     
     }
 }
