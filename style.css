@@ -81,7 +81,6 @@ h3 {
 
 .income-container,.expense-container > div:first-of-type{
   border-top-right-radius: 4rem;
-  box-shadow: rgba(8, 3, 0, 0.99) 5px 7px 9px;
   width: 22rem;
   height: 5rem;
 }
