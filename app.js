@@ -51,6 +51,9 @@ alert('please add a text and amount');
     // Add class based on value
     item.classList.add(transactions.amount < 0 ? 'minus' : 'plus');
 
+    item.innerHTML =`
+    `
+
     }
 }
 
