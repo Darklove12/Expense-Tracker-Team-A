@@ -89,6 +89,9 @@ alert('please add a text and amount');
 
     init()
  }
-
+    // Update local storage transa
+    function updateLocalStorage(){
+        
+    }
 
 
