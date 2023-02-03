@@ -59,7 +59,7 @@ alert('please add a text and amount');
     })">x</button>
     `;
     list.appendChild(item);
-
     }
 }
+ //Update the balance, income and expense
 
