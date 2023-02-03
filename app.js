@@ -12,4 +12,14 @@ localStorageTransactions.getItem('transations') !== null ? localStorageTransacti
 function addTransation(e){
     e.preventDefault();
 }
+if (text.value.trim() ==='' || amount.value.trim()===''){
+alert('please add a text and amount');
+}else {
+
+    let transations={
+        id: geneerateID(),
+        text: text.value,
+        amount: +amount.value
+    };
+}
 
