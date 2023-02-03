@@ -35,6 +35,7 @@ alert('please add a text and amount');
 }
 {
     //Generate random ID
+    function generationID(){}
     
 }
 
