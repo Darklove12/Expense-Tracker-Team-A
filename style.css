@@ -50,14 +50,14 @@ h4 {
 .inc-exp-container {
   background-color:  rgb(195, 118, 195);
   box-shadow: var(--box-shadow);
-  padding: 20px;
+  padding: 29px;
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
 }
 
 .inc-exp-container > div {
-  flex: 1;
+  flex: 3px;
   text-align: center;
 }
 
@@ -65,12 +65,19 @@ h4 {
   border-right: 1px solid  rgb(139, 9, 139);
   border-radius: 1rem;
   border-left: 6px solid  rgb(139, 9, 139);
-}
-
-.inc-exp-container > div:first-of-type{
   border-top: 1px solid  rgb(139, 9, 139);
   border-bottom: 1px solid  rgb(139, 9, 139);
   box-shadow: rgba(0, 0, 7, 0.19) 1px 10px 20px, rgba(8, 3, 0, 0.99) 5px 7px 9px;
+}
+
+.inc-exp-container{
+  border-right: 1px solid  rgb(139, 9, 139);
+  border-radius: 1rem;
+  border-left: 6px solid  rgb(139, 9, 139);
+  border-top: 1px solid  rgb(139, 9, 139);
+  border-bottom: 1px solid  rgb(139, 9, 139);
+  box-shadow: rgba(0, 0, 7, 0.19) 1px 10px 20px, rgba(8, 3, 0, 0.99) 5px 7px 9px;
+  
 }
 
 .money {
