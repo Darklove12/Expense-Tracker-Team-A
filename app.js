@@ -81,5 +81,10 @@ alert('please add a text and amount');
     money_plus.innerText = `R${expense}`;
  }
 
+ // Remove transaction by ID
+ function removeTransaction (id){
+    
+ }
+
 
 
