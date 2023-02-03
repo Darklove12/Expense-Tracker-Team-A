@@ -21,5 +21,8 @@ alert('please add a text and amount');
         text: text.value,
         amount: +amount.value
     };
+    transactions.push(transcations);
+
+
 }
 
