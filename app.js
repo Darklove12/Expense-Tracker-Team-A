@@ -103,4 +103,6 @@ function updateLocalStorage() {
 }
 
 //Init app
-function init()
+function init() {
+    list.innerHTML = '';
+}
