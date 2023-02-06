@@ -68,7 +68,7 @@ function addTransation(e) {
     `;
         list.appendChild(item);
     }
-}
+
 //Update the balance, income and expense
 function updateValues() {
     const amount = transactions.map(transaction => transaction.amount);
@@ -91,7 +91,7 @@ function updateValues() {
 
 // Remove transaction by ID
 function removeTransaction(id) {
-    transactions = transactions.filter(transaction => transaction.id! == id);
+    transactions = transactions.filter(transaction => transaction.id !== id);
 
     updateLocalStorage();
 
@@ -102,4 +102,5 @@ function updateLocalStorage() {
 
 }
 
-
+//Init app
+function init()
