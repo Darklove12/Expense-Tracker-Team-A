@@ -1,7 +1,8 @@
 let balance = document.getElementById('balance')
-let money_plus = document.getElementById('money-plus');
-let money_minus = document.getElementById('money-minus');
-let list = document.getElementById('list');
+let balance1 = document.getElementById('balance1')
+let money_high= document.getElementById('money-high');
+let money_less = document.getElementById('money-less');
+let list_add = document.getElementById('list-add');
 let form = document.getElementById('form');
 let text = document.getElementById('text');
 let amount = document.getElementById('amount');
@@ -12,8 +13,6 @@ let localStorageTransactions = JSON.parse(
 
 let transactions =
     localStorage.getItem('transactions') !== null ? localStorageTransactions : [];
-
-// Add transaction
 
 
 
@@ -45,7 +44,7 @@ function addTransation(e) {
 
     //Generate random ID
     function generationID() {
-        return Math.floor(Math.random() * 100000000);
+        return Math.floor(Math.random() * 900000);
     }
 
 
