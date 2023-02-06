@@ -40,14 +40,19 @@ h1 {
   margin: 1rem;
 }
 
+h2{
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--lightpurple);
+}
 #balance {
   padding-left: 12.3rem;
-  margin-top: -4.2rem;
+  margin-top: -2.2rem;
 }
 
 #balance1 {
-  font-size: 1.6rem;
-  margin-top: -2rem;
+  font-size: 1.3rem;
+  margin-top: -1rem;
   font-weight: 200%;
 }
 
