@@ -54,7 +54,7 @@ function addTransation(e) {
         const item = document.createElement('li');
 
         // Add class based on value
-        item.classList.add(transactions.amount < 0 ? 'minus' : 'plus');
+        item.classList.add(transactions.amount < 0 ? 'less' : 'high');
 
         item.innerHTML = `
     ${transaction.text} <span>${sign}${Math.abs}(
