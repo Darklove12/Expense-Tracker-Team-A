@@ -32,8 +32,6 @@ function addTransation(e) {
 
         addTransactionDom(transactions);
 
-        updateValues();
-
         updateLocalStorage();
 
         text.value = '';
