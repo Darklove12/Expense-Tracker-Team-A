@@ -12,8 +12,6 @@
 
 }
 
-html {}
-
 body {
   background-color: var(--grey);
   width: 100%;
@@ -29,6 +27,9 @@ body {
 
 .container {
   background-color: #333;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 2rem;
+  height: 100%;
   margin: 30px auto;
   width: 350px;
   cursor: scroll;
