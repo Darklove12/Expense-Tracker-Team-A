@@ -27,11 +27,11 @@ body {
 
 .container {
   background-color: var(--greylight);
-  border-top-right-radius: 3rem;
+  border-top-right-radius: 5.6rem;
   border-bottom-right-radius: 2rem;
   height: 100%;
   margin: 30px auto;
-  width: 350px;
+  width: 310px;
   cursor: scroll;
 }
 
@@ -138,7 +138,7 @@ label {
   display: block;
   font-size: 16px;
   padding: 10px;
-  width: 95%;
+  width: 107%;
   border-top-right-radius: 5rem;
   box-shadow: rgba(6, 3, 1, 1.24) 0px 5px 8px;
 }
