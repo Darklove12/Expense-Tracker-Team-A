@@ -3,7 +3,7 @@
 :root {
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   --grey: rgb(141, 141, 141);
-  --greylight: rgb(205, 200, 200);
+  --greylight: rgb(211, 208, 208);
   --purple: rgb(166, 7, 166);
   --lightpurple: rgb(232, 106, 232);
   --green: rgb(2, 86, 2);
@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-  background-color: #333;
+  background-color: var(--greylight);
   border-top-right-radius: 3rem;
   border-bottom-right-radius: 2rem;
   height: 100%;
