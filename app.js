@@ -51,7 +51,7 @@ function addTransation(e) {
         //Get sign
         let sign= transactions.amount < 0 ? '-' : '+';
 
-        const item = document.createElement('li');
+        let item = document.createElement('li');
 
         // Add class based on value
         item.classList.add(transactions.amount < 0 ? 'less' : 'high');
