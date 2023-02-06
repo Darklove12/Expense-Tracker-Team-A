@@ -6,8 +6,8 @@ let form =document.getElementById('form');
 let text =document.getElementById('text');
 let amount =document.getElementById('amount');
 
-let localStorageTransactions = JSON.parse
-localStorageTransactions.getItem('transations') !== null ? localStorageTransactions : [];
+let localStorageTransactions = JSON.parse(
+localStorageTransactions.getItem('transations') 
 // Add transations
 function addTransation(e){
     e.preventDefault();
@@ -64,7 +64,7 @@ alert('please add a text and amount');
  //Update the balance, income and expense
  function updateValues(){
     const amount = transactions.map(transaction => transaction.amount);
-    const total = amount.reduce((acc, item) => (acc += item, 0).toFixed(2);
+    const total = amount.reduce((acc, item) => (acc += item, 0).toFixed(2));
     let income = amounts
     .filter(item => item > 0)
     .rdeuce((acc, item) => (acc += item), 0)
