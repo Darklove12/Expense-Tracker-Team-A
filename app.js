@@ -19,8 +19,8 @@ let transactions =
 function addTransation(e) {
     e.preventDefault();
 
-    if (text.value.trim() === '' || amount.value.trim() === '') {
-        alert('please add a text and amount');
+    if (text.value === '' || amount.value === '') {
+        alert('Write a text and amount');
     } else {
 
         let transations = {
