@@ -42,7 +42,7 @@ function addTransation(e) {
     }
  }
 
-    //Generate random ID
+    //Fix the ID
     function generationID() {
         return Math.floor(Math.random() * 900000);
     }
