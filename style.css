@@ -98,16 +98,16 @@ h3 {
   margin: 5px 0;
 }
 
-.money.plus {
+.money.high {
   color: var(--green);
 }
 
-.money.minus {
+.money.less {
   color: var(--red);
 }
 
-.money.plus,
-.money.minus {
+.money.high,
+.money.less {
   margin-top: -1rem;
   font-weight: bolder;
   text-align: center;
@@ -153,13 +153,13 @@ label {
   color: whitesmoke;
 }
 
-.list {
+.list.add {
   list-style-type: none;
   padding: 0;
   margin-bottom: 40px;
 }
 
-.list li {
+.list.add li {
   background-color: #fff;
   box-shadow: var(--box-shadow);
   color: #333;
@@ -170,11 +170,11 @@ label {
   margin: 10px 0;
 }
 
-.list li.plus {
+.list.add li.plus {
   border-right: 5px solid #2ecc71;
 }
 
-.list li.minus {
+.listadd li.less {
   border-right: 5px solid #c0392b;
 }
 
@@ -194,6 +194,6 @@ label {
   transition: opacity 0.3s ease;
 }
 
-.list li:hover .delete-btn {
+.list.add li:hover .delete-btn {
   opacity: 1;
 }

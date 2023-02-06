@@ -69,7 +69,7 @@ function addTransation(e) {
 //Update the balance, income and expense
 function changeItem() {
     let amount = transactions.map(transaction => transaction.amount);
-    const total = amount.reduce((acc, item) => (acc += item, 0).toFixed(2));
+    let total = amount.reduce((acc, item) => (acc += item, 0).toFixed(2));
     let income = amounts
         .filter(item => item > 0)
         .rdeuce((acc, item) => (acc += item), 0)
@@ -81,9 +81,9 @@ function changeItem() {
     ).toFixed(2)
 
     balance.innerText = `R${total}`;
-    money_plus.innText = `R${income}`;
+    money_high.innText = `R${income}`;
 
-    money_plus.innerText = `R${expense}`;
+    money_high.innerText = `R${expense}`;
 }
 
 // Remove transaction by ID
