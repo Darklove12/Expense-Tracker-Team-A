@@ -48,12 +48,11 @@ function addTransation(e) {
         return Math.floor(Math.random() * 100000000);
     }
 
-}
-{
+
     //Add transactions to DoM list
     function addTransactionDom(transactions) {
         //Get sign
-        const item = transactions.amount < 0 ? '-' : '+';
+        const sign= transactions.amount < 0 ? '-' : '+';
 
         const item = document.createElement('li');
 
