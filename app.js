@@ -49,7 +49,7 @@ function addTransation(e) {
     //Add transactions to DoM list
     function addTransactionDom(transactions) {
         //Get sign
-        const sign= transactions.amount < 0 ? '-' : '+';
+        let sign= transactions.amount < 0 ? '-' : '+';
 
         const item = document.createElement('li');
 
