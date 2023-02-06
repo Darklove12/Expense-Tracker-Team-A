@@ -61,14 +61,14 @@ function addTransation(e) {
         transaction.amount
     ){</span> <button class="delete-btn" onclick="removeTransaction(R"}
     transaction.id
-    })">x</button>
+    })"><i class="bi bi-trash3"></i></button>
     `;
         list.appendChild(item);
     }
 
 //Update the balance, income and expense
 function updateValues() {
-    const amount = transactions.map(transaction => transaction.amount);
+    let amount = transactions.map(transaction => transaction.amount);
     const total = amount.reduce((acc, item) => (acc += item, 0).toFixed(2));
     let income = amounts
         .filter(item => item > 0)
