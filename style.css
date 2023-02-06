@@ -9,6 +9,7 @@
   --green: rgb(2, 86, 2);
   --red: rgb(245, 5, 5);
   --white: white;
+  --black:black;
 
 }
 
@@ -44,7 +45,10 @@ h1 {
 h2{
   margin-top: 1rem;
   text-align: center;
-  color: var(--lightpurple);
+  color: black;
+}
+h2:hover{
+  color: purple;
 }
 #balance {
   padding-left: 12.3rem;
