@@ -7,8 +7,14 @@ let text =document.getElementById('text');
 let amount =document.getElementById('amount');
 
 let localStorageTransactions = JSON.parse(
-localStorageTransactions.getItem('transations') 
-// Add transations
+localStorage.getItem('transations')
+);
+
+let transactions =
+    localStorage.getItem('transactions') !== null ? localStorageTransactions : [];
+
+
+
 function addTransation(e){
     e.preventDefault();
 }
