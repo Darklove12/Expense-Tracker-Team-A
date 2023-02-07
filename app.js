@@ -29,8 +29,9 @@ let localStorageTransactions = JSON.parse(
           text: text.value,
           amount: +amount.value
         };
+
+        transactions.push(transaction);
+      }
     
-       
     }
-  }
 
