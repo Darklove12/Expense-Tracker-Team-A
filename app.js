@@ -6,9 +6,17 @@ let form = document.getElementById('form');
 let text = document.getElementById('text');
 let amount = document.getElementById('amount');
 
-const localStorageTransactions = JSON.parse(
+let localStorageTransactions = JSON.parse(
     localStorage.getItem('transactions')
   );
   
+  display()
   
+  let transactions =
+    localStorage.getItem('transactions') !== null ? localStorageTransactions : [];
+  
+  // Add transaction in function()
+  function addTransaction(event) {
+   
+  }
 
