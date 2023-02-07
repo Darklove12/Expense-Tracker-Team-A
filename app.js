@@ -32,6 +32,7 @@ let localStorageTransactions = JSON.parse(
 
         transactions.push(transaction);
         updateValues();
+        updateLocalStorage();
     
       }
     
