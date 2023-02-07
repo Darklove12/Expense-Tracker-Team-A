@@ -20,6 +20,17 @@ let localStorageTransactions = JSON.parse(
   
     if (text.value === '' || amount.value === '') {
       alert('Please add a text and amount');
+
+    } 
+    else
+    {
+        let transaction = {
+          id: addID(),
+          text: text.value,
+          amount: +amount.value
+        };
+    
+       
     }
   }
 
