@@ -1,1 +1,3 @@
-read = "We don't complete our Worker."
+let balance = document.getElementById('balance');
+
+
