@@ -34,7 +34,7 @@ let localStorageTransactions = JSON.parse(
         updateValues();
         updateLocalStorage();
         text.value = '';
-        
+        amount.value = '';
       }
     
     }
