@@ -115,3 +115,7 @@ button {
   box-shadow: rgba(6, 6, 6, 6.54) 0px 4px 7px;
 }
 
+.button-income {
+  background-color: var(--green);
+  box-shadow: rgba(6, 6, 6, 6.54) 0px 4px 7px;
+}
