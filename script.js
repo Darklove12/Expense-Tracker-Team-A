@@ -21,5 +21,15 @@ function addTransactions()
   let form = document.getElementById('form').value;
   let text = document.getElementById('text').value;
   let amount = document.getElementById('amount').value;
-  
+  if (text.value == '' || amount.value == '') {
+    alert('write a text and amount, please');
+  }
+  else{
+    transactions = {
+      id: generateId(),
+      text: text.value,
+      amount: +amount.value
+    }
+    
+  }
 }
