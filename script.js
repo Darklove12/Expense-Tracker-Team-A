@@ -15,5 +15,7 @@ let transactions = {
 function addTransactions() 
 {
   let balance = document.getElementById('balance').value;
-  
+  let money_sum = document.getElementById('money-sum').value;
+  let money_sub = document.getElementById('money-sub').value;
+  let item = document.getElementById('item').value;
 }
