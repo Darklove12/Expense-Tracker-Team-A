@@ -162,3 +162,12 @@ button {
     text-underline-position: below;
     }
     
+    .td_unique, .tr_unique
+    {
+    text-align: center;
+    border-radius: 4px;
+    padding: .0px 35px;
+    box-shadow: rgba(1, 0, 0, 0.54) 1px 5px 5px;
+    
+    }
+    
