@@ -19,15 +19,16 @@
           <h4>INCOME</h4>
         </td>
       </tr>
-      <td class="income">R<span id="income"></span></td>
-
+      <td class="income">R<span id="income"></span>
       <tr>
+        
         <td>
           <h4>EXPENSE</h4>
         </td>
       </tr>
       <td class="expense">R<span id="expense"></span></td>
-      
+    </td>
+
       <tr>
         <td>
           <h4>BALANCE</h4>
@@ -38,36 +39,33 @@
       <div class="form">
         <input type="text" placeholder="Detail" id="detail" />
         <input type="number" placeholder="Amount" id="amount" />
-       
-        <div class="buttons">
-        <button class="button-expense" onclick="addTransaction('expense')">
-          Expense</button><button class="button-income" onclick="addTransaction('income')">
-          Income
-        </button>
-      </div>
-    </div>
-    <table class="transactions" id="transactions">
-      <tr class="tr_unique">
-        <ul id="UL_table">
-          <li>ID</li>
-          <li>Details</li>
-          <li>Amount</li>
-          <li>Remove</li>
-        </ul>
-      </tr>
-      <tr class="tr_unique">
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <script src="./script.js"></script>
-      </div>
-       
-        
-    </table>
 
+        <div class="buttons">
+          <button class="button-expense" onclick="addTransaction('expense')">
+            Expense</button><button class="button-income" onclick="addTransaction('income')">
+            Income
+          </button>
+        </div>
+      </div>
+      <table class="transactions" id="transactions">
+        <tr class="tr_unique">
+          <ul id="UL_table">
+            <li>ID</li>
+            <li>Details</li>
+            <li>Amount</li>
+            <li>Remove</li>
+          </ul>
+        </tr>
+        <tr class="tr_unique">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <script src="./script.js"></script>
+     </div>
+    </table>
   </div>
 </body>
 
