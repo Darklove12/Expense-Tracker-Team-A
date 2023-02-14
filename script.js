@@ -10,3 +10,10 @@ let transactions = {
   text,
   amount
 }
+// add value into the object 
+
+function addTransactions() 
+{
+  let balance = document.getElementById('balance').value;
+  
+}
