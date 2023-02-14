@@ -54,12 +54,12 @@ body {
   padding: 0.5rem;
 }
 
-.expense {
-  color: var(--red);
-}
-
 .income {
   color: var(--green);
+}
+
+.expense {
+  color: var(--red);
 }
 
 .balance {
@@ -67,10 +67,7 @@ body {
 }
 
 .expense, .income, .balance {
-  text-align: center;
-  padding-top: 1rem;
-  font-size: bolder;
-  font-size: 1.1rem;
+ text-align: center;
  
 }
 
