@@ -62,3 +62,7 @@ body {
   color: var(--green);
 }
 
+.balance {
+  color: var(--blue);
+}
+
