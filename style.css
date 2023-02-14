@@ -83,3 +83,12 @@ body {
   margin-top: 1rem;
 }
 
+input {
+  padding: 1rem;
+  outline: none;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  text-align: center;
+  box-shadow: rgba(6, 6, 6, 6.54) 0px 4px 7px;
+}
+
