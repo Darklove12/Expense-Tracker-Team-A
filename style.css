@@ -130,3 +130,11 @@ button {
   margin: 0px;
 }
 
+.transactions button{
+  background-color: #70727c;
+  color: black;
+  width: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
