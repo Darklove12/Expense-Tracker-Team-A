@@ -30,6 +30,12 @@ function addTransactions()
       text: text.value,
       amount: +amount.value
     }
-    
+    document.getElementById('money-sum').innerHTML = money_sum;
+    document.getElementById('balance').innerHTML = balance;
+    document.getElementById('money-sub').innerHTML = money_sub;
+    document.getElementById('item').innerHTML = item;
+    document.getElementById('form').innerHTML = form;
+    document.getElementById('text').innerHTML = text;
+    document.getElementById('amount').innerHTML = amount;
   }
 }
