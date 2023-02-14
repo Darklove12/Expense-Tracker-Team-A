@@ -68,3 +68,16 @@ function addTransactionDOM(transactions) {
   document.getElementById('form').innerHTML = form;
   document.getElementById('text').innerHTML = text;
   document.getElementById('amount').innerHTML = amount;
+   // create the function()
+
+   function allTransactions() {
+    let item = document.getElementById("ul").id;
+    document.getElementById(item).innerHTML = item;
+  }
+  allTransactions.innerHTML = " ";
+
+  // ` ${transaction.text} <span>${sign}${Math.abs(
+  //   transaction.amount)}</span> <button class="delete-btn"
+  //   onclick="removeTransaction(${transaction.id})">x</button>`;
+
+  // item.appendChild(item);
