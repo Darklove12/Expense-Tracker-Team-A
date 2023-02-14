@@ -18,4 +18,8 @@ function addTransactions()
   let money_sum = document.getElementById('money-sum').value;
   let money_sub = document.getElementById('money-sub').value;
   let item = document.getElementById('item').value;
+  let form = document.getElementById('form').value;
+  let text = document.getElementById('text').value;
+  let amount = document.getElementById('amount').value;
+  
 }
