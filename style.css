@@ -101,3 +101,12 @@ input {
   
 }
 
+button {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin: 5px ;
+  border-radius: 7rem;
+  font-weight: bold;
+  color: rgb(220, 220, 220);
+}
+
