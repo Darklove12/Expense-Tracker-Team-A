@@ -81,3 +81,21 @@ function addTransactionDOM(transactions) {
   //   onclick="removeTransaction(${transaction.id})">x</button>`;
 
   // item.appendChild(item);
+   {
+
+   
+  console.log(transactions)
+}
+
+// To add the value
+function updateValues() {
+  let number =+ 1;
+  document.getElementById("number").innerHTML = number.reduce(sum, 0);
+
+  let expense = (
+    amounts.filter(item => item < 0).reduce((acc, item) => (acc += item), 0) *
+    -1);
+
+  return number > document.getElementById("number").value;
+
+}
