@@ -138,3 +138,18 @@ button {
   margin-top: 1rem;
 }
 
+.transactions button:hover{
+  background-color: var(--white);
+  color: var(--black);
+  transition: calc(.1);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -15px inset, rgba(0, 9, 6, 4.3) 0px 18px 36px -25px inset;
+  }
+  
+  #UL_table
+  {
+  display: flex;
+  gap: 75px;
+  
+  }
+  
+  
