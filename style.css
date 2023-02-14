@@ -22,3 +22,18 @@ body {
   color: rgb(9, 8, 8);
  
 }
+.container {
+  border-radius: 6rem;
+  font-size: 14px;
+  width: 490px;
+  height: 99vh;
+  margin-left: 34.0rem;
+  background-color: rgb(150, 150, 153);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  box-shadow: rgba(6, 6, 6, 6.54) 1px 5px 5px;
+}
+
