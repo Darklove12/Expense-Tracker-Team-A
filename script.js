@@ -37,5 +37,34 @@ function addTransactions()
     document.getElementById('form').innerHTML = form;
     document.getElementById('text').innerHTML = text;
     document.getElementById('amount').innerHTML = amount;
-  }
+  
 }
+transactions.push(transactions); updateValues();
+
+text.value = '';
+amount.value = '';
+
+addTransactionDOM() 
+}
+
+
+// create a ID
+function generateID() {
+  let amount = Math.random() * 6000000;
+  return Math.floor(Math.random() * 6000000) + 1;
+
+}
+
+function addTransactionDOM(transactions) {
+
+  for (let index = 0; index < transactions.length; index++)
+    element = array[index, 1];
+
+  }
+  document.getElementById('money-sum').innerHTML = money_sum;
+  document.getElementById('balance').innerHTML = balance;
+  document.getElementById('money-sub').innerHTML = money_sub;
+  document.getElementById('item').innerHTML = item;
+  document.getElementById('form').innerHTML = form;
+  document.getElementById('text').innerHTML = text;
+  document.getElementById('amount').innerHTML = amount;
