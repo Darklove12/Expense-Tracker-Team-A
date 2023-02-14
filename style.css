@@ -58,3 +58,7 @@ body {
   color: var(--red);
 }
 
+.income {
+  color: var(--green);
+}
+
