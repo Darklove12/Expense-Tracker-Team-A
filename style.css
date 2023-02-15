@@ -48,3 +48,8 @@ td > h4{
   text-align: center;
   margin-top: -2px;
 }
+
+.income {
+  color: var(--green);
+}
+
