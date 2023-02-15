@@ -68,3 +68,7 @@ function addTransaction(type){
   }
   saveData()
 }
+
+function calculate(){
+  
+}
