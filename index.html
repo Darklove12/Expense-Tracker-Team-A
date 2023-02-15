@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Expense Tracker</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,12 +19,9 @@
       <input type="number" placeholder="Amount" id="amount" />
 
       <div class="buttons">
-        <button class="button-expense" onclick="addTransaction('expense')"></button>
-        Expense</button>
-        <button class="button-income" onclick="addTransaction('income')">
-          Income</button>
+        <button class="button-expense" onclick="addTransaction('expense')">Expense</button>
+        <button class="button-income" onclick="addTransaction('income')">Income</button>
       </div>
-    </div>
   </div>
   <hr>
   <table class="table">
@@ -52,28 +50,25 @@
   <hr>
 
   <table class="transactions" id="transactions">
-  <tr class="tr_tran">
-    <ul id="UL_table">
-      <li>ID</li>
-      <li>Details</li>
-      <li>Amount</li>
-      <li>Remove</li>
-           
-    </ul>
-  </tr>
-  <tr class="tr_tran">
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
+    <tr class="tr_tran">
+      <ul id="UL_table">
+        <li>ID</li>
+        <li>Details</li>
+        <li>Amount</li>
+        <li>Remove</li>
+
+      </ul>
+    </tr>
+    <tr class="tr_tran">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
   </table>
-      <script src="./script.js"></script>
-</div>
-</table>
-</div>
-</body>
-
-
+  <script src="./script.js"></script>
+  </div>
+  </table>
+  </div>
 </body>
 </html>
