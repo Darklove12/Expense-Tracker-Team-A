@@ -5,3 +5,7 @@ let transaction = {
   balance: 0,
   transactions: [],
 }
+
+function Display(){
+  
+}
