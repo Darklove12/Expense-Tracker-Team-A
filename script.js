@@ -20,5 +20,9 @@ function Display(){
 
   let displayTransactions = document.getElementById('transactions')
   displayTransactions.innerHTML = ''
+
+  for (let i = 0; i < transaction.transactions.length; i++) {
+    
+  }
 }
 
