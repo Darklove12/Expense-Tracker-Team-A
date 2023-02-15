@@ -93,4 +93,6 @@ function calculate(){
   saveData()
 }
 
-function remove (index)
+function remove (index){
+  transaction.transactions.splice(index, 1)
+}
