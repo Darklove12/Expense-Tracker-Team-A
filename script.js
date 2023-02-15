@@ -38,6 +38,7 @@ function Display(){
        <td class="tr_tran">${i + 1}</td>
        <td class="tr_tran">${transaction.transactions[i].detail}</td>
        <td class="tr_tran">R${transaction.transactions[i].amount}</td>
+       <td class="tr_tran"><button onclick="remove(${i})"><i class="bi bi-trash3"></i></button></td>
        </tr>
     </table>
   }
