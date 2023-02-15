@@ -97,5 +97,5 @@ function remove (index){
   transaction.transactions.splice(index, 1)
 
   Display()
- 
+  saveData()
 }
