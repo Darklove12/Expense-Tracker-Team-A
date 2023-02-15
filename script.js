@@ -57,7 +57,8 @@ function addTransaction(type){
     transaction.transactions.push({
       detail: detail.value,
       amount: amount.value,
-      id: id
+      id: id,
+      type: type
     })
   }
 }
