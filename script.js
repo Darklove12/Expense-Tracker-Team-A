@@ -15,4 +15,7 @@ function Display(){
   let displayExpense = document.getElementById('expense');
   displayExpense.innerHTML = transaction.expense
 
+  let displayBalance = document.getElementById('balance');
+  displayBalance.innerHTML = transaction.balance
+
 }
