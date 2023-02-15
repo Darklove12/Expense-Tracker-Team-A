@@ -139,3 +139,13 @@ button {
   margin-left: -3.3rem;
   }
   
+  #UL_table > li
+  {
+  list-style: none;
+  font-size: bolder;
+    background-color: var(--lightgrey);
+    width: 3.6rem;
+    gap: 5rem;
+    text-align: center;
+    box-shadow: rgba(6, 6, 6, 6.54) 0px 4px 7px;
+  }
