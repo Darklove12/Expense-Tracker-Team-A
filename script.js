@@ -1,1 +1,5 @@
-let transaction = {}
+let transaction = {
+
+  income: 0,
+ 
+}
