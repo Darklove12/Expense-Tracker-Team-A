@@ -84,4 +84,6 @@ function calculate(){
       expense += Number(transaction.transactions[i].amount)
     }
   }
+
+  balance = Number(income) - Number(expense)
 }
