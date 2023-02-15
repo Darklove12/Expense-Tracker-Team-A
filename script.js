@@ -75,6 +75,9 @@ function calculate(){
   let balance = 0;
 
   for (let i = 0; i < transaction.transactions.length; i++){
-    
+
+    if (transaction.transactions[i].type == 'income'){
+      
+    }
   }
 }
