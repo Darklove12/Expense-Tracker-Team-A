@@ -72,5 +72,5 @@ function addTransaction(type){
 function calculate(){
   let income = 0;
   let expense = 0;
- 
+  let balance = 0;
 }
