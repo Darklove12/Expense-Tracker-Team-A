@@ -89,6 +89,7 @@ function calculate(){
 
   transaction.income = income
   transaction.expense = expense
+  transaction.balance = balance
   
   
 }
