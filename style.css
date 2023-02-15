@@ -30,3 +30,15 @@ body{
   gap: 1rem;
   box-shadow: rgba(6, 6, 6, 6.54) 1px 5px 5px;
 }
+
+.header {
+  font-size: 19px;
+  width: 15rem;
+  text-align: center;
+  background-color: #d1cfcf;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border: solid 6px rgb(220, 220, 220);
+  padding: 0.5rem;
+  box-shadow: rgba(6, 6, 6, 6.54) 1px 5px 3px;
+}
