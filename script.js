@@ -73,4 +73,8 @@ function calculate(){
   let income = 0;
   let expense = 0;
   let balance = 0;
+
+  for (let i = 0; i < transaction.transactions.length; i++){
+    
+  }
 }
