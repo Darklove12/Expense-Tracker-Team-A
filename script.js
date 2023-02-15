@@ -66,4 +66,5 @@ function addTransaction(type){
     detail.value = ''
     amount.value = ''
   }
+  saveData()
 }
