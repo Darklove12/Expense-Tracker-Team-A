@@ -149,3 +149,12 @@ button {
     text-align: center;
     box-shadow: rgba(6, 6, 6, 6.54) 0px 4px 7px;
   }
+
+  .tr_tran
+  {
+  text-align: center;
+  border-radius: 4px;
+  padding: .0px 35px;
+  box-shadow: rgba(1, 0, 0, 0.54) 1px 5px 5px;
+  
+  }
