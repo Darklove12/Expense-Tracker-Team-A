@@ -46,4 +46,5 @@ function Display(){
 
 function addTransaction(type){
   let detail = document.getElementById('detail')
+  let amount = document.getElementById('amount')
 }
