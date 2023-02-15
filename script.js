@@ -49,6 +49,6 @@ function addTransaction(type){
   let amount = document.getElementById('amount')
 
   if (detail.value == '' || amount.value == ''){
-    
+    alert('Write your detail and amount, please.')
   }
 }
