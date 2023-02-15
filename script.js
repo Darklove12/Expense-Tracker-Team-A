@@ -70,5 +70,6 @@ function addTransaction(type){
 }
 
 function calculate(){
+  let income = 0;
   
 }
