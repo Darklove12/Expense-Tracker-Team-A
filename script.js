@@ -37,6 +37,7 @@ function Display(){
        <tr class="tr_tran" id="${style}">
        <td class="tr_tran">${i + 1}</td>
        <td class="tr_tran">${transaction.transactions[i].detail}</td>
+       <td class="tr_tran">R${transaction.transactions[i].amount}</td>
        </tr>
     </table>
   }
