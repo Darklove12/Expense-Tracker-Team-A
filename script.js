@@ -18,4 +18,7 @@ function Display(){
   let displayBalance = document.getElementById('balance');
   displayBalance.innerHTML = transaction.balance
 
+  let displayTransactions = document.getElementById('transactions')
+  displayTransactions.innerHTML = ''
 }
+
