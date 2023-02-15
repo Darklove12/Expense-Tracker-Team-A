@@ -8,4 +8,7 @@ let transaction = {
 
 function Display(){
   calculate()
+
+  let displayIncome = document.getElementById('income');
+  displayIncome.innerHTML = transaction.income
 }
