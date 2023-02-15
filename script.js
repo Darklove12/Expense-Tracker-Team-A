@@ -51,4 +51,8 @@ function addTransaction(type){
   if (detail.value == '' || amount.value == ''){
     alert('Write your detail and amount, please.')
   }
+
+  else{
+    let id = Math.floor(Math.random() * 10000000)
+  }
 }
