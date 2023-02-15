@@ -87,3 +87,12 @@ input {
   justify-content: center;
   align-items: center;
 }
+
+button {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 7rem;
+  color: rgb(220, 220, 220);
+}
+
