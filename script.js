@@ -77,7 +77,7 @@ function calculate(){
   for (let i = 0; i < transaction.transactions.length; i++){
 
     if (transaction.transactions[i].type == 'income'){
-      
+      income += Number(transaction.transactions[i].amount)
     }
   }
 }
