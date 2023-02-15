@@ -31,7 +31,11 @@ function Display(){
       style = 'red'
     }
 
-    displayTransactions.innerHTML 
+    displayTransactions.innerHTML +=
+
+    <table>
+      
+    </table>
   }
 }
 
