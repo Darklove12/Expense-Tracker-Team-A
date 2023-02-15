@@ -44,3 +44,6 @@ function Display(){
   }
 }
 
+function addTransaction(type){
+  
+}
