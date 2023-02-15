@@ -33,7 +33,7 @@ function Display(){
       style = 'red'
     }
 
-    displayTransactions.innerHTML +=
+    displayTransactions.innerHTML += `
 
     <table>
        <tr class="tr_tran" id="${style}">
@@ -43,6 +43,7 @@ function Display(){
        <td class="tr_tran"><button onclick="remove(${i})"><i class="bi bi-trash3"></i></button></td>
        </tr>
     </table>
+    `
   }
 }
 
