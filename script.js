@@ -101,5 +101,5 @@ function remove (index){
 }
 
 function saveData(){
-  
+  let stateToString = JSON.stringify(transaction)
 }
