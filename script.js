@@ -34,7 +34,9 @@ function Display(){
     displayTransactions.innerHTML +=
 
     <table>
-      
+       <tr class="tr_tran" id="${style}">
+        
+       </tr>
     </table>
   }
 }
