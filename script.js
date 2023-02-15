@@ -106,5 +106,7 @@ function saveData(){
 }
 
 function getData(){
-  
+  if (localStorage.getItem('transaction')){
+    
+  }
 }
