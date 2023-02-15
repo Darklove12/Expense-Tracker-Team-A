@@ -107,6 +107,7 @@ function saveData(){
 
 function getData(){
   if (localStorage.getItem('transaction')){
-    
+    let dataFromLocalStorage = localStorage.getItem('transaction')
+    transaction = JSON.parse(dataFromLocalStorage)
   }
 }
