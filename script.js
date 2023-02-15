@@ -30,6 +30,8 @@ function Display(){
     else {
       style = 'red'
     }
+
+    displayTransactions.innerHTML 
   }
 }
 
