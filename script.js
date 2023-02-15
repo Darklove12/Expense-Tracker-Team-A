@@ -45,5 +45,5 @@ function Display(){
 }
 
 function addTransaction(type){
-  
+  let detail = document.getElementById('detail')
 }
