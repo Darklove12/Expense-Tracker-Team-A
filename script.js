@@ -7,5 +7,5 @@ let transaction = {
 }
 
 function Display(){
-  
+  calculate()
 }
