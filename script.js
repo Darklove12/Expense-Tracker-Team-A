@@ -23,6 +23,10 @@ function Display(){
 
   for (let i = 0; i < transaction.transactions.length; i++) {
     let style = ''
+
+    if (transaction.transactions[i].type == 'income') {
+      style = 'green'
+    }
   }
 }
 
