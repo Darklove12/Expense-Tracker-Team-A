@@ -60,5 +60,7 @@ function addTransaction(type){
       id: id,
       type: type
     })
+    
+    Display()
   }
 }
