@@ -104,3 +104,7 @@ function saveData(){
   let stateToString = JSON.stringify(transaction)
   localStorage.setItem('transaction', stateToString)
 }
+
+function getData(){
+  
+}
