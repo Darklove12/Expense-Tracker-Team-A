@@ -56,7 +56,8 @@ function addTransaction(type){
     let id = Math.floor(Math.random() * 10000000)
     transaction.transactions.push({
       detail: detail.value,
-      amount: amount.value
+      amount: amount.value,
+      id: id
     })
   }
 }
