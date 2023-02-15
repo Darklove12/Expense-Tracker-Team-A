@@ -91,5 +91,6 @@ function calculate(){
   transaction.expense = expense
   transaction.balance = balance
   saveData()
-  
 }
+
+function remove (index)
