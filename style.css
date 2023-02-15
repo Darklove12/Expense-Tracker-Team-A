@@ -42,3 +42,9 @@ body{
   padding: 0.5rem;
   box-shadow: rgba(6, 6, 6, 6.54) 1px 5px 3px;
 }
+
+td > h4{
+  display: flex;
+  text-align: center;
+  margin-top: -2px;
+}
