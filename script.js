@@ -60,7 +60,10 @@ function addTransaction(type){
       id: id,
       type: type
     })
-    
+
     Display()
+
+    detail.value = ''
+  
   }
 }
