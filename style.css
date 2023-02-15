@@ -53,3 +53,6 @@ td > h4{
   color: var(--green);
 }
 
+.expense {
+  color: var(--red);
+}
