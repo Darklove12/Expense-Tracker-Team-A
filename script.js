@@ -22,7 +22,7 @@ function Display(){
   displayTransactions.innerHTML = ''
 
   for (let i = 0; i < transaction.transactions.length; i++) {
-    
+    let style = ''
   }
 }
 
