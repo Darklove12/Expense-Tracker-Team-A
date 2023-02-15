@@ -56,3 +56,8 @@ td > h4{
 .expense {
   color: var(--red);
 }
+
+.balance {
+  color: var(--blue);
+
+}
