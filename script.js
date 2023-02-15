@@ -79,5 +79,9 @@ function calculate(){
     if (transaction.transactions[i].type == 'income'){
       income += Number(transaction.transactions[i].amount)
     }
+
+    if (transaction.transactions[i].type == 'expense'){
+      expense += Number(transaction.transactions[i].amount)
+    }
   }
 }
