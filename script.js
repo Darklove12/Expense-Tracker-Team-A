@@ -27,6 +27,9 @@ function Display(){
     if (transaction.transactions[i].type == 'income') {
       style = 'green'
     }
+    else {
+      style = 'red'
+    }
   }
 }
 
