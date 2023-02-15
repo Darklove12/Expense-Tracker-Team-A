@@ -96,3 +96,7 @@ button {
   color: rgb(220, 220, 220);
 }
 
+.button-expense {
+  background-color: var(--red);
+  box-shadow: rgba(6, 6, 6, 6.54) 0px 4px 7px;
+}
