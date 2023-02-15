@@ -64,6 +64,6 @@ function addTransaction(type){
     Display()
 
     detail.value = ''
-  
+    amount.value = ''
   }
 }
