@@ -6,6 +6,7 @@ let transaction = {
 }
 
 Display()
+getData()
 
 function Display(){
   calculate()
