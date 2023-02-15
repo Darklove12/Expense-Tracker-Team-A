@@ -71,7 +71,7 @@ td > h4{
 }
 
 input {
-  margin-top: 15px;
+  margin-top: 1px;
   padding: 1rem;
   outline: none;
   border-top-right-radius: 2rem;
@@ -170,4 +170,23 @@ background-color: green;
 
 hr{
   width: 29rem;
+}
+
+/* ------------------flex for grid */
+
+header, .row {
+  display: flex;
+  gap: 3rem; 
+}
+
+.col {
+  flex: 1;       
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+header, .row, .col{
+  margin-top: -0.6rem;
+  align-items: center;
 }
