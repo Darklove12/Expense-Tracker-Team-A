@@ -88,5 +88,7 @@ function calculate(){
   balance = Number(income) - Number(expense)
 
   transaction.income = income
+  transaction.expense = expense
+  
   
 }
