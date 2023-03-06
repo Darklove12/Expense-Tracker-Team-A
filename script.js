@@ -1,10 +1,7 @@
 // Create the value and transaction
 
 let transaction = {
-  income: "",
-  expense: "",
-  balance: "",
-  transactions: [],
+  income: "", expense: "", balance: "", transactions: [],
 }
 
 display()
