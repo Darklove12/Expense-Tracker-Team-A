@@ -3,7 +3,7 @@
 :root{
   --blue:rgb(7, 7, 235);
   --red: rgb(242, 3, 3);
-  --green: rgb(2, 137, 2);
+  --green: rgb(9, 144, 9);
   --grey: rgb(184, 183, 183);
   --lightgrey: hsl(0, 4%, 84%);
   --white: white;
@@ -171,8 +171,6 @@ background-color: green;
 hr{
   width: 29rem;
 }
-
-/* ------------------flex for grid */
 
 header, .row {
   display: flex;

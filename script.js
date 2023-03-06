@@ -1,15 +1,22 @@
+// Create the value and transaction
+
 let transaction = {
-  income: 0,
-  expense: 0,
-  balance: 0,
+  income: "",
+  expense: "",
+  balance: "",
   transactions: [],
 }
 
-Display()
-getData()
+display()
 
-function Display(){
+
+// To function display transaction in HTML
+
+function display(){
   calculate()
+
+
+  // To get the ID information
 
   let displayIncome = document.getElementById('income');
   displayIncome.innerHTML = transaction.income
@@ -23,6 +30,9 @@ function Display(){
   let displayTransactions = document.getElementById('transactions')
   displayTransactions.innerHTML = ''
 
+
+  // To fix the transactions ID and display for Loop
+
   for (let i = 0; i < transaction.transactions.length; i++) {
     let style = ''
 
@@ -32,6 +42,9 @@ function Display(){
     else {
       style = 'red'
     }
+
+
+    // Create style
 
     displayTransactions.innerHTML += `
 
@@ -45,18 +58,23 @@ function Display(){
     </table>
     `
   }
+  
 }
+
+
+// Add transaction
 
 function addTransaction(type){
   let detail = document.getElementById('detail')
   let amount = document.getElementById('amount')
 
   if (detail.value == '' || amount.value == ''){
-    alert('Write your detail and amount, please.')
+    alert('Enter your detail and amount, please.')
+      
   }
 
   else{
-    let id = Math.floor(Math.random() * 10000000)
+    let id = Math.floor(Math.random() * 30000000)
     transaction.transactions.push({
       detail: detail.value,
       amount: amount.value,
@@ -64,13 +82,16 @@ function addTransaction(type){
       type: type
     })
 
-    Display()
-
+    display()
     detail.value = ''
     amount.value = ''
   }
   saveData()
+  getData()
+  
 }
+
+// Do a calculate
 
 function calculate(){
   let income = 0;
@@ -80,11 +101,11 @@ function calculate(){
   for (let i = 0; i < transaction.transactions.length; i++){
 
     if (transaction.transactions[i].type == 'income'){
-      income += Number(transaction.transactions[i].amount)
+      income = Number(transaction.transactions[i].amount)
     }
 
     if (transaction.transactions[i].type == 'expense'){
-      expense += Number(transaction.transactions[i].amount)
+      expense = Number(transaction.transactions[i].amount)
     }
   }
 
@@ -96,21 +117,39 @@ function calculate(){
   saveData()
 }
 
-function remove (index){
-  transaction.transactions.splice(index, 1)
 
-  Display()
+// Put function array by removing or replacing existing elements in place
+
+function remove (index){
+  transaction.transactions.splice(index,1)
+
+
+    // Display
+
+  display()
   saveData()
 }
 
+
+// Save the data
+
 function saveData(){
   let stateToString = JSON.stringify(transaction)
-  localStorage.setItem('transaction', stateToString)
+
+
+// Add the data to localstorage
+
+localStorage.setItem('transaction', stateToString)
+  
 }
+
+
+// The data gets out of localstorage
 
 function getData(){
   if (localStorage.getItem('transaction')){
     let dataFromLocalStorage = localStorage.getItem('transaction')
     transaction = JSON.parse(dataFromLocalStorage)
   }
+  saveData()
 }
