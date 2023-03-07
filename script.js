@@ -18,6 +18,9 @@ function display(){
   let income = document.getElementById('income')
   income.innerHTML = transaction.income
 
+  let expense = document.getElementById('expense')
+  expense.innerHTML = transaction.expense
+
   
 
   let displayTransactions = document.getElementById('transactions')
