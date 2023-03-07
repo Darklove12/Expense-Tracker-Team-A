@@ -1,7 +1,7 @@
 // Create the value and transaction
 
 let transaction = {
-  income: "", expense: "", balance: "", transactions: [],
+  income , expense, balance , transactions:[]
 }
 
 display()
@@ -15,14 +15,10 @@ function display(){
 
   // To get the ID information
 
-  let displayIncome = document.getElementById('income');
-  displayIncome.innerHTML = transaction.income
+  let income = document.getElementById('income')
+  income.innerHTML = transaction.income
 
-  let displayExpense = document.getElementById('expense');
-  displayExpense.innerHTML = transaction.expense
-
-  let displayBalance = document.getElementById('balance');
-  displayBalance.innerHTML = transaction.balance
+  
 
   let displayTransactions = document.getElementById('transactions')
   displayTransactions.innerHTML = ''
@@ -55,9 +51,7 @@ function display(){
     </table>
     `
   }
-  
 }
-
 
 // Add transaction
 
@@ -76,15 +70,16 @@ function addTransaction(type){
       detail: detail.value,
       amount: amount.value,
       id: id,
-      type: type
+      type: type,
     })
 
     display()
+
     detail.value = ''
     amount.value = ''
   }
   saveData()
-  getData()
+
   
 }
 
@@ -98,11 +93,11 @@ function calculate(){
   for (let i = 0; i < transaction.transactions.length; i++){
 
     if (transaction.transactions[i].type == 'income'){
-      income = Number(transaction.transactions[i].amount)
+      income += Number(transaction.transactions[i].amount)
     }
 
     if (transaction.transactions[i].type == 'expense'){
-      expense = Number(transaction.transactions[i].amount)
+      expense += Number(transaction.transactions[i].amount)
     }
   }
 
@@ -117,9 +112,8 @@ function calculate(){
 
 // Put function array by removing or replacing existing elements in place
 
-function remove (index){
-  transaction.transactions.splice(index,1)
-
+function remove (getItem){
+  transaction.transactions.splice(getItem,1)
 
     // Display
 
@@ -127,26 +121,23 @@ function remove (index){
   saveData()
 }
 
-
 // Save the data
 
 function saveData(){
-  let stateToString = JSON.stringify(transaction)
+  let transactionToString = JSON.stringify(transaction)
 
 
 // Add the data to localstorage
 
-localStorage.setItem('transaction', stateToString)
+localStorage.setItem('transaction', transactionToString)
   
 }
-
 
 // The data gets out of localstorage
 
 function getData(){
-  if (localStorage.getItem('transaction')){
-    let dataFromLocalStorage = localStorage.getItem('transaction')
+  if (localStorage.getItem(`transaction`)){
+    let dataFromLocalStorage = localStorage.getItem(`transaction`)
     transaction = JSON.parse(dataFromLocalStorage)
   }
-  saveData()
 }
