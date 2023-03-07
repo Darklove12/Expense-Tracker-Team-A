@@ -21,7 +21,8 @@ function display(){
   let expense = document.getElementById('expense')
   expense.innerHTML = transaction.expense
 
-  
+  let balance = document.getElementById('balance')
+  balance.innerHTML = transaction.balance
 
   let displayTransactions = document.getElementById('transactions')
   displayTransactions.innerHTML = ''
